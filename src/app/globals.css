@@ -1,0 +1,173 @@
+@keyframes paper-fan-blade-1 {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: rotate(-58.5deg);
+    top: 149px;
+    left: -523px;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(-78deg);
+    top: 245px;
+    left: -598px;
+  }
+}
+
+.paper-fan-blade-1 {
+  animation: paper-fan-blade-1 1s forwards;
+  animation-delay: 3s;
+}
+
+@keyframes paper-fan-blade-2 {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: rotate(-39deg);
+    top: 70px;
+    left: -386px;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(-58.5deg);
+    top: 149px;
+    left: -523px;
+  }
+}
+
+.paper-fan-blade-2 {
+  animation: paper-fan-blade-2 1s forwards;
+  animation-delay: 2s;
+}
+
+@keyframes paper-fan-blade-3 {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: rotate(-19.5deg);
+    top: 18px;
+    left: -205px;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(-39deg);
+    top: 70px;
+    left: -386px;
+  }
+}
+
+.paper-fan-blade-3 {
+  animation: paper-fan-blade-3 1s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes paper-fan-blade-4 {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: rotate(0deg);
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(-19.5deg);
+    top: 18px;
+    left: -205px;
+  }
+}
+
+.paper-fan-blade-4 {
+  animation: paper-fan-blade-4 1s forwards;
+}
+
+@keyframes paper-fan-blade-6 {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: rotate(0deg);
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(19.5deg);
+    top: 18px;
+    left: 205px;
+  }
+}
+
+.paper-fan-blade-6 {
+  animation: paper-fan-blade-6 1s forwards;
+}
+
+@keyframes paper-fan-blade-7 {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: rotate(19.5deg);
+    top: 18px;
+    left: 205px;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(39deg);
+    top: 70px;
+    left: 386px;
+  }
+}
+
+.paper-fan-blade-7 {
+  animation: paper-fan-blade-7 1s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes paper-fan-blade-8 {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: rotate(39deg);
+    top: 70px;
+    left: 386px;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(58.5deg);
+    top: 149px;
+    left: 523px;
+  }
+}
+
+.paper-fan-blade-8 {
+  animation: paper-fan-blade-8 1s forwards;
+  animation-delay: 2s;
+}
+
+@keyframes paper-fan-blade-9 {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: rotate(58.5deg);
+    top: 149px;
+    left: 523px;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(78deg);
+    top: 245px;
+    left: 598px;
+  }
+}
+
+.paper-fan-blade-9 {
+  animation: paper-fan-blade-9 1s forwards;
+  animation-delay: 3s;
+}

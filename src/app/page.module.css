@@ -1,0 +1,14 @@
+@keyframes rotateslide {
+  0% {
+    top: -6px;
+  }
+  100% {
+    transform: rotate(-19.5deg);
+    top: 17px;
+    left: 70px;
+  }
+}
+
+.abc {
+  animation: rotateslide 1s linear forwards;
+}
