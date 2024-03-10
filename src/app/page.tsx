@@ -33,6 +33,7 @@ const Home: NextPage = () => {
     {
       bgImage: '/images/blade-5.png',
       className: 'paper-fan-blade-5',
+      connectClassName: 'paper-fan-connect-5',
       zIndex: 5,
       isCenter: true
     },
@@ -78,13 +79,14 @@ const Home: NextPage = () => {
     >
       <Flex pos="relative" w="100%" h={fullBladeHeight} align="center" justify="center">
         {BLADE_LIST.map((item) => {
-          const { className, bgImage, zIndex, isCenter } = item;
+          const { className, bgImage, zIndex, isCenter, connectClassName } = item;
 
           return (
             <FanBlade
               key={className}
               bgImage={bgImage}
               className={className}
+              connectClassName={connectClassName}
               zIndex={zIndex}
               isCenter={isCenter}
               fullBladeHeight={fullBladeHeight}
